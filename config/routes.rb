@@ -1,5 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
 
-  #map.connect '/', :controller => 'application', :action => 'redirect_to_new_host'
+  # All routing errors are rescued by a routine which redirects everything to echo.to 
 
 end
