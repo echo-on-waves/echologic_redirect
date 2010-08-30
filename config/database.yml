@@ -1,0 +1,28 @@
+
+development:
+  adapter: mysql
+  database: echo_dev
+  host: localhost
+  username: echo_dev
+  password: pass
+
+test:
+  adapter: mysql
+  database: echo_test
+  host: localhost
+  username: echo_test
+  password: pass
+
+cucumber:
+  adapter: mysql
+  database: echo_test
+  host: localhost
+  username: echo_test
+  password: pass
+
+production:
+  adapter: mysql
+  database: echo_prod
+  host: localhost
+  username: echo_prod
+  password: pass
